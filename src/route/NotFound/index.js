@@ -1,4 +1,4 @@
-import component from './components/NotFoundPage'
+import component from './component/NotFoundPage'
 
 export default {
   component

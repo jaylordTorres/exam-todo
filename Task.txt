@@ -1,0 +1,21 @@
+Subject: Exam
+
+1.	App with 3 oages.
+2.	Switching page should be done using react router.
+3.	Must have a store (context API or Redux)
+
+Page 1 (To-Do Form) 
+•	Must have
+•	Apply validation for required fields.
+•	Store field values in state on ‘onChange’, ‘onBlur’ etc events.
+•	Send data to the store upon clicking submit. (title, details and date)
+•	Response message on success
+•	Clear field values in state on success.
+•	Use CSS (Inline) for styling (Doesn’t need to be perfect)
+
+Page 2 (T—Do List)
+•	Display to do list in cards.
+•	Use CSS (External) for styling (Doesn’t need to be perfect)
+•	Must have button to clear data from store (with confirmation)
+Page 3 (Display data from other source)
+•	Display data from a JSON file/ Display data from open source API endpoints for testing.

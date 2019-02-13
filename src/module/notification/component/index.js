@@ -1,7 +1,7 @@
 import Notification from './Notification'
 import { connect } from 'react-redux'
 
-import { notificationAdd, notificationRemove } from './../redux'
+import { notificationRemove } from './../redux'
 
 const mapStateToProps = state => {
   return {
@@ -10,7 +10,6 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = {
-	notificationAdd,
 	notificationRemove,
 }
 

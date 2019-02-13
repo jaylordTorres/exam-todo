@@ -29,4 +29,13 @@ class Notification extends React.Component {
 	}
 }
 
+Notification.propTypes = {
+  list: PropTypes.array,                         // connect
+  notificationRemove: PropTypes.func.isRequired  // connect
+}
+
+Notification.defaultProps = {
+	list: []
+}
+
 export default Notification

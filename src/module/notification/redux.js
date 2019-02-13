@@ -35,10 +35,8 @@ export default function (state = initialState, { type, payload }) {
     case NOTIFICATION_ADD:
       return {list: [...state.list, payload]}
     case NOTIFICATION_REMOVE:
-      return {list: state.list.filter((item)=> item._id!=payload)}
+      return {list: state.list.filter((item)=> item._id!==payload)}
     default:
       return state
   }
-
-  return state
 }

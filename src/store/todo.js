@@ -1,4 +1,4 @@
-import { Map, List } from 'immutable'
+import { Map } from 'immutable'
 
 // ------------------------------------
 // Constants
@@ -30,6 +30,4 @@ export default function (state = initialState, { type, payload }) {
     default:
       return state
   }
-
-  return state
 }

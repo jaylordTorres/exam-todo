@@ -2,8 +2,8 @@
 	position: fixed;
   z-index: 999999;
   pointer-events: none;
-	top: 12px;
-	right: 12px;
+	bottom: 12px;
+	left: 12px;
 }
 .toast-container .toast{
   position: relative;

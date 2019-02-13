@@ -17,5 +17,6 @@ Page 2 (T—Do List)
 •	Display to do list in cards.
 •	Use CSS (External) for styling (Doesn’t need to be perfect)
 •	Must have button to clear data from store (with confirmation)
+
 Page 3 (Display data from other source)
 •	Display data from a JSON file/ Display data from open source API endpoints for testing.

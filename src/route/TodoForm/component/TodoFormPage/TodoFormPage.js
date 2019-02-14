@@ -39,7 +39,7 @@ class TodoFormPage extends React.Component {
 	render () {
 		return (
 		  <div style={style.root}>
-		    <h1>Todo Form</h1>
+		    <h1 style={style.title}>Todo Form</h1>
 		    <div style={style.container}>
 			    <div style={style.form}>								
 			    	<InputGroup

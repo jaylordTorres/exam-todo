@@ -7,5 +7,7 @@ import { TODO_FORM as path } from 'constant/path'
 
 export default {
 	path,
-  component
+  component,
+  name: 'form',
+  title:'Task 1: todo form'
 }

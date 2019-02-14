@@ -11,5 +11,5 @@ export default {
     fontSize: '1rem',
     lineHeight: 1.5,
     borderRadius: '.25rem',
-  }
+  },
 }

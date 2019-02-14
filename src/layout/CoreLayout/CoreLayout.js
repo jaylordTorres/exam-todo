@@ -6,7 +6,6 @@ import Navbar from 'container/Navbar'
 export const CoreLayout = ({ routes, children }) => (
   <div>
     <Navbar routes={routes} />
-    <hr />
     <div>{children}</div>
     <Notification />
   </div>

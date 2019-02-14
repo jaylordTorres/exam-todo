@@ -19,7 +19,7 @@ class TodoListPage extends React.Component {
 	}
 
   renderItem = (item, index) => {
-    return <li key={index} className="todo-item" ><TodoCard item={item} onDelete={()=>this.onDelete(item)} /></li>
+    return <li key={index} className="todo-item" ><TodoCard item={item} onDelete={() => this.onDelete(item)} /></li>
   }
 
 	render () { 
@@ -27,6 +27,9 @@ class TodoListPage extends React.Component {
 		  <div className="todo-list">
 		    <h1 className="title">Todo List</h1>
 		    <ul className="todo-cards">
+		    {
+		    	!(this.props.list.length > 0) && <p>empty</p>
+		    }
 		    {
 		    	this.props.list.map(this.renderItem)
 		    }

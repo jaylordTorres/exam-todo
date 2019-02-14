@@ -3,9 +3,11 @@ import { Switch, Route } from 'react-router-dom'
 import CoreLayout from '../layout/CoreLayout'
 import TodoForm from './TodoForm'
 import TodoList from './TodoList'
+import TodoApi from './TodoApi'
 import NotFoundRoute from './NotFound'
 
-const routesNavigation = [{
+const routesNavigation = [
+  {
     title: TodoForm.title,
     name: TodoForm.name,
     path: TodoForm.path,
@@ -16,9 +18,9 @@ const routesNavigation = [{
     path: TodoList.path,
   },
   {
-    title: 'task 3: todo api',
-    name: 'api',
-    path: '/api',
+    title: TodoApi.title,
+    name: TodoApi.name,
+    path: TodoApi.path,
   },
 ] 
 
@@ -31,6 +33,7 @@ export default function createRoutes(store) {
         	[
         	TodoForm,
           TodoList,
+          TodoApi,
         	].map((setting, index) => <Route key={`route-${index}`} {...setting} />)
         }
         <Route component={NotFoundRoute.component} /> 

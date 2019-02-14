@@ -1,0 +1,19 @@
+.nav {
+	padding-top: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.nav .nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.nav a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}    

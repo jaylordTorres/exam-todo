@@ -1,0 +1,20 @@
+.nav {
+	padding: 12px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+  box-shadow: 0 0 12px 0 #999;
+}
+
+.nav .nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.nav a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}    

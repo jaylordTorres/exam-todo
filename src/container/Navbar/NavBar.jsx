@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { BrowserRouter as Router, Link } from 'react-router-dom'
-import { Provider as ReduxProvider } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 import './style.css'
 

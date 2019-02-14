@@ -1,0 +1,62 @@
+.todo-list {
+	padding: 50px;
+}
+
+.todo-list .title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.todo-cards {
+
+}
+.todo-cards::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.todo-cards .todo-item {
+	width: 300px;
+	float: left;
+	padding: 8px;
+}
+
+
+.card {
+	position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.card .card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+  
+.card .card-title{
+	    font-size: 1.25rem;
+	margin-bottom: .75rem;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+	    margin-bottom: .75rem;
+}
+
+.card .card-date{
+	color: #6c757d;
+	margin-top: -.375rem;
+	font-size: 1rem;
+}
+
+.card .card-detail{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
